@@ -135,7 +135,7 @@ export const useStore = create<AppState>()(
           id: generateId(),
           name,
           projectId,
-          model: 'claude-sonnet-4-5',
+          model: 'claude-sonnet-4-6',
           responseMode: 'concise',
           createdAt: new Date().toISOString(),
           updatedAt: new Date().toISOString(),
