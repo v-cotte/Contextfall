@@ -81,7 +81,7 @@ export default function LoginPage() {
           }}>
             {isSignUp
               ? 'Start building your context tree'
-              : 'Sign in to Contextfall'}
+              : 'Sign in to contextree'}
           </p>
         </div>
 

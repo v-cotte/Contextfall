@@ -63,7 +63,7 @@ function EmptyState() {
         </svg>
       </div>
       <div className="text-center">
-        <p className="text-sm font-medium">Welcome to Contextfall</p>
+        <p className="text-sm font-medium">Welcome to contextree</p>
         <p className="text-sm text-muted-foreground">
           Create a project to get started
         </p>

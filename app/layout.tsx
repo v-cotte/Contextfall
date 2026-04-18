@@ -4,7 +4,7 @@ import { GeistMono } from 'geist/font/mono'
 import './globals.css'
 
 export const metadata: Metadata = {
-  title: 'Contextfall',
+  title: 'contextree',
   description: 'Hierarchical AI context manager',
 }
 

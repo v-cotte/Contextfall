@@ -67,7 +67,7 @@ export default function Sidebar({ user }: SidebarProps) {
               <path d="M3.5 7h5" />
             </svg>
           </div>
-          <span className="text-sm font-medium">Contextfall</span>
+          <span className="text-sm font-medium">contextree</span>
         </div>
 
         <DropdownMenu>

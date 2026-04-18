@@ -54,13 +54,13 @@ export function getAncestorChain(
   while (current) {
     if (visited.has(current.id)) {
       console.warn(
-        `[contextfall] cycle detected at project ${current.id}, breaking`
+        `[contextree] cycle detected at project ${current.id}, breaking`
       )
       break
     }
     if (depth >= MAX_SAFE_DEPTH) {
       console.warn(
-        `[contextfall] max depth ${MAX_SAFE_DEPTH} reached, truncating`
+        `[contextree] max depth ${MAX_SAFE_DEPTH} reached, truncating`
       )
       break
     }
@@ -73,7 +73,7 @@ export function getAncestorChain(
     const parent = byId.get(current.parentId)
     if (!parent) {
       console.warn(
-        `[contextfall] parent ${current.parentId} missing for ${current.id}`
+        `[contextree] parent ${current.parentId} missing for ${current.id}`
       )
       break
     }

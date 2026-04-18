@@ -271,7 +271,7 @@ export const useStore = create<AppState>()(
       },
     }),
     {
-      name: 'contextfall-storage',
+      name: 'contextree-storage',
     }
   )
 )
